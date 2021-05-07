@@ -1,0 +1,70 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<title>project</title>
+<style>
+.izy {
+text-align: center
+}
+</style>
+
+<body>
+<a href="index.htm">page 1 <a> 
+
+<h1>Internship Application</h1>
+<p style="font-size:120%;">Please fill out the form below and hit submit to be considered for the internship.</p>
+
+<form>
+<fieldset>
+<legend>Personalia:</legend>
+<label for="yaz">First name:</label>
+<input type="text" id="yaz" name="zed"><br>
+<label for="zd">last name:</label>
+<input type="text" id="zd" name="iz"   onchange="sss()" ><br>
+<label for="ye">Personal Website:</label>
+<input type="url" id ="ye" name="imm"    onchange="sss()" ><br>
+<label for="dy">Enter a phone number:</label>
+<input type="tel" id="dy" name="call" placeholder="123-45-678" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" required><br>
+ <label for="ry">Enter your email:</label>
+<input type="email" id="ry" name="irr"   onchange="iir()" ><br>
+<label for="myz">Username:</label>
+<input type="text" id="myz" name="ill" onchange="iil()" ><br>
+<label for="zzy">Password:</label>
+<input type="password"  id="zzy" name="mry"  onchange="mry()" ><br>
+</fieldset>
+       
+<fieldset>
+<legend>Education:</legend>
+<label for="zye">Degree:</label>
+<input list="zye" name="zye">
+<datalist id="zye">
+<option value="Associate">
+<option value="Bachelor">
+<option value="Masters">
+<option value=" Ph.D.">
+<option value="Other">
+</datalist>
+<br>
+
+<label for="iid">When will you graduate::</label>
+<input type="date" id="iid" name="datemax" min="2021-05-07" max="2022-05-07"><br><br>
+<label for="lyy">Upload your CV and other documents:</label>
+<input type="file" id="lly" name="ziz"multiple><br>
+</fieldset>
+
+<div class="izy">
+<br>
+<input type="submit" id="sub" value="Submit">
+<input type="submit" id="save" value="Save">
+<input type="reset" value="reset">
+</div>
+
+<p id="pp"></p>
+
+</form>
+<script src="jsfile.js">    
+</script>
+
+</body>
+</html>
+</head>
